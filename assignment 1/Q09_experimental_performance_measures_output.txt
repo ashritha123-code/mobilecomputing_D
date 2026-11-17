@@ -1,0 +1,12 @@
+TASK 9 - EXPERIMENTAL PERFORMANCE MEASURES
+Illustrative fixed-seed SIR sample; 5,000 mobiles
+Mean SIR                 : 26.50 dB
+5th percentile SIR       : 15.86 dB
+Outage probability <12 dB : 0.00%
+
+Other metrics to collect in a full network simulation:
+- Erlang-B call blocking by cell and network
+- Channels per cell, site count and handoff rate
+- Borrowing frequency, cost, run-time and energy use
+
+These SIR values are illustrative simulation outputs, not measured field results.

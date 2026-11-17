@@ -1,0 +1,20 @@
+TASK 5 - SCALING AND SENSITIVITY ANALYSIS
+Traffic forecast (0.025 Erlang per subscriber):
+  1,000 subscribers ->    25.00 Erlangs
+ 10,000 subscribers ->   250.00 Erlangs
+ 20,000 subscribers ->   500.00 Erlangs
+100,000 subscribers ->  2500.00 Erlangs
+
+Radius scaling for 12 km^2:
+R=0.500 km, cell area=0.64952 km^2, ideal cells=19
+R=0.250 km, cell area=0.16238 km^2, ideal cells=74
+R=0.125 km, cell area=0.04059 km^2, ideal cells=296
+
+N=7 ideal SIR sensitivity:
+path-loss exponent n=2.5: SIR=8.75 dB
+path-loss exponent n=3.0: SIR=12.05 dB
+path-loss exponent n=3.5: SIR=15.36 dB
+path-loss exponent n=4.0: SIR=18.66 dB
+
+Trend: smaller cells increase site density; larger N improves ideal SIR
+but reduces channels per cell.

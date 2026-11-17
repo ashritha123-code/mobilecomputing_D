@@ -1,0 +1,15 @@
+TASK 12 - DAY-4 STADIUM EVENT DESIGN
+Attendees                       : 25,000
+Traffic per attendee            : 0.050 Erlang
+Event offered traffic           : 1,250.0 Erlangs
+Event traffic density           : 1,250.0 Erlangs/km^2
+Township normal traffic (100k)  : 2,500.0 Erlangs
+Township average density        : 208.33 Erlangs/km^2
+Event / normal average density  : 6.00 times
+
+Decision: temporarily MODIFY the macro design for the four-hour event.
+Deploy temporary cells/small cells, directional sectors, temporary backhaul,
+coordinated channels, power control, live monitoring and rollback.
+
+Exact event blocking cannot be calculated without allocated channels,
+sector count, call-arrival profile and neighbouring-cell spare capacity.

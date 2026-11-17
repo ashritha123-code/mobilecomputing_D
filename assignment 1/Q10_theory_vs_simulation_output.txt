@@ -1,0 +1,11 @@
+TASK 10 - THEORY VERSUS SIMULATION
+Analytical six-interferer SIR (N=7,n=4): 18.66 dB
+Illustrative Monte Carlo mean SIR         : 20.91 dB
+Illustrative Monte Carlo 5th percentile   : 18.64 dB
+
+Reasons for differences:
+1. Sampled mobile/interferer distances are unequal.
+2. Shadowing and antenna patterns change received powers.
+3. Finite network boundaries alter the number of interferers.
+4. Erlang-B assumes Poisson arrivals and a loss system.
+Simulation is a model; it does not replace field measurements.

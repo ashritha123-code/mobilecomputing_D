@@ -1,0 +1,18 @@
+TASK 11 - RECOMMENDED TOWNSHIP NETWORK DESIGN
+Township area                  : 12.0 km^2
+Macrocell radius               : 0.50 km
+Geometric minimum cells        : 19
+Working site allowance         : 22 macro sites (planning estimate)
+Reuse cluster size             : N=7
+Nominal channels per cell      : 48
+Reuse ratio                    : 4.583
+Reuse distance                 : 2.291 km
+SIR for n=4                    : 18.66 dB
+
+Recommendation:
+- Seven-cell macro reuse foundation.
+- Three-sector antennas at high-load macro sites.
+- Selective microcells at measured hotspots.
+- Maintain blocking <=2%; validate with drive tests and traffic data.
+
+100,000 users -> 2500.0 Erlangs busy-hour offered traffic.

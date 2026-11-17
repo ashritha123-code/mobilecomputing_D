@@ -1,0 +1,17 @@
+TASK 8 - IMPLEMENTATION AND TESTING / VALIDATION
+Test 1: reuse-distance relation D/R=sqrt(3N)
+N= 3: D/R=3.0000 (expected 3.0000)
+N= 4: D/R=3.4641 (expected 3.4641)
+N= 7: D/R=4.5826 (expected 4.5826)
+N=12: D/R=6.0000 (expected 6.0000)
+
+Test 2: SIR sanity check N=7, n=4
+Computed SIR=18.663 dB (assignment reference approximately 18.7 dB)
+
+Test 3: Erlang-B recurrence
+m= 1, A=  0.5 Erlangs -> blocking=33.333%
+m= 5, A=  2.0 Erlangs -> blocking=3.670%
+m=48, A= 35.0 Erlangs -> blocking=0.672%
+
+Validation plan: fixed seed; 1,000 / 5,000 / 10,000 samples;
+test N=3,4,7,12; n=2.5,3,4; sector counts 1 and 3.

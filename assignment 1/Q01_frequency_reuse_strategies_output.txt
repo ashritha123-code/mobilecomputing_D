@@ -1,0 +1,13 @@
+TASK 1 - ALTERNATIVE FREQUENCY-PLANNING STRATEGIES
+Strategy comparison using S=336 channels and R=0.5 km
+------------------------------------------------------------------
+Cluster N   Channels/cell     Reuse ratio Q    Distance D (km)   
+3           112               3.000            1.500             
+4           84                3.464            1.732             
+7           48                4.583            2.291             
+12          28                6.000            3.000             
+
+Strategy 1: Fixed reuse - predictable channel groups.
+Strategy 2: 3-sector reuse - directional interference reduction.
+Strategy 3: Macro-micro + dynamic assignment - hotspot capacity.
+Baseline recommendation: N=7 with sectorisation and selective microcells.

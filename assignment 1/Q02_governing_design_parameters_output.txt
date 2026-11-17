@@ -1,0 +1,18 @@
+TASK 2 - GOVERNING DESIGN PARAMETERS
+
+Fixed cluster reuse
+  Governing parameter: N (cluster size)
+  Effect: Q=sqrt(3N), channels/cell=floor(336/N)
+
+Sectorised reuse
+  Governing parameter: Effective co-channel interferers
+  Effect: Sector count, beamwidth, antenna discrimination
+
+Macro-micro deployment
+  Governing parameter: Cell radius R and active small cells
+  Effect: Cell density is proportional to 1/R^2
+
+Planning constants:
+Area=12 km^2 | Spectrum=336 duplex channels | Traffic=0.025 Erlang/user
+Blocking target <=2% | Baseline N=7 | Macro radius=0.5 km
+Hexagonal area at R=0.5 km: 0.6495 km^2

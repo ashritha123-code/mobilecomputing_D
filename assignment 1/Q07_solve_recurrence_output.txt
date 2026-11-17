@@ -1,0 +1,12 @@
+TASK 7 - SOLVING THE CELL-SPLITTING RECURRENCE
+Uniform: M_k=M0*4^k and C_k=C0*4^k
+Initial cells M0=22
+Illustrative initial capacity C0=10.0 Erlangs; target demand=2500.0 Erlangs
+Minimum ideal splitting rounds = ceil(log_4(D/C0)) = 4
+Cells after 4 rounds = 5632
+Ideal aggregate capacity after 4 rounds = 2560.0 Erlangs
+
+Selective splitting fraction f=0.25
+Minimum ideal rounds = 10
+Selective cell count = 5926.57
+These are ideal lower-bound estimates; interference, site limits and handoffs are omitted.

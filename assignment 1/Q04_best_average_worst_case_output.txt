@@ -1,0 +1,8 @@
+TASK 4 - BEST, AVERAGE AND WORST-CASE SIR
+Illustrative Monte Carlo samples=10000, seed=42, N=7, R=0.5 km, n=3.5
+Best sampled SIR       : 54.08 dB
+Mean sampled SIR       : 27.14 dB
+5th percentile SIR     : 15.94 dB
+Worst sampled SIR      : 14.65 dB
+
+Note: illustrative model; not a field measurement or full hexagonal-site simulator.
