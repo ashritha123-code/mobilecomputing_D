@@ -1,0 +1,11 @@
+Android evidence commands (PowerShell; replace <PACKAGE>):
+adb devices -l
+adb shell getprop ro.build.version.release
+adb shell uname -a
+adb shell ps -A
+adb shell dumpsys meminfo <PACKAGE>
+adb shell dumpsys activity processes
+adb shell cmd package compile -m speed-profile <PACKAGE>
+adb shell cmd package compile -m verify <PACKAGE>
+adb logcat -d | findstr /i "art gc"
+adb shell dumpsys batterystats
