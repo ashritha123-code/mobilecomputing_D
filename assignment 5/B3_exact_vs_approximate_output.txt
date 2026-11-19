@@ -1,0 +1,15 @@
+B3.1 - SMALL INSTANCE COMPARISON
+Instance 1: exact=9 (q=1, cache=3), adaptive=13 (q=1, cache=1), match=NO
+Instance 2: exact=5 (q=1, cache=1), adaptive=13 (q=3, cache=2), match=NO
+Instance 3: exact=13 (q=1, cache=3), adaptive=17 (q=1, cache=1), match=NO
+
+B3.2 - COUNTER-EXAMPLE TRACE
+Adaptive starts at q=2, cache=2; low frame time increases q to 3.
+Exact search: (5, 1, 1)
+Adaptive    : (13, 3, 2)
+The heuristic changes one parameter locally and may miss a better combination.
+
+B3.3 - SEARCH-SIZE OPERATION COUNTS
+3 quality levels x 3 cache sizes -> exact evaluations: 9; adaptive adjustments per window: at most 1
+5 quality levels x 6 cache sizes -> exact evaluations: 30; adaptive adjustments per window: at most 1
+8 quality levels x 10 cache sizes -> exact evaluations: 80; adaptive adjustments per window: at most 1

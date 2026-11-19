@@ -1,0 +1,22 @@
+
+WORKLOAD A - EASY
+=================
+Records processed : 5
+Deferrals         : 0
+Successful        : 5
+  A1: DELIVERED
+  A2: DELIVERED
+  A3: DELIVERED
+  A4: DELIVERED
+  A5: DELIVERED
+
+WORKLOAD B - ADVERSARIAL
+========================
+Records processed : 5
+Deferrals         : 5
+Successful        : 0
+  B1: DEFERRED: device/network constraint
+  B2: DEFERRED: device/network constraint
+  B3: DEFERRED: encryption missing
+  B4: DEFERRED: device/network constraint
+  B5: DEFERRED: device/network constraint

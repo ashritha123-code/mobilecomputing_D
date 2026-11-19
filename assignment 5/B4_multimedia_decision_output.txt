@@ -1,0 +1,11 @@
+B4.1 - HEURISTIC VIDEO SETTINGS
+Device                      Network    Battery  Resolution   Bitrate    Decision
+---------------------------------------------------------------------------------------------------------
+High-end phone              strong     78%      1080p        5 Mbps     UPLOAD NOW
+Mid-range phone             moderate   42%      720p         2.5 Mbps   UPLOAD WHEN STABLE
+Entry-level phone           weak       18%      480p         1 Mbps     DEFER UNTIL SUITABLE CONDITIONS
+Urgent low-battery case     strong     22%      480p         1 Mbps     DEFER UNTIL SUITABLE CONDITIONS
+
+B4.2 - CHALLENGE CASE
+The urgent low-battery device is deferred by the fixed threshold.
+A user-priority-aware policy could choose 720p at a reduced bitrate and upload immediately.

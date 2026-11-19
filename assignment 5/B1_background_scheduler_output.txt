@@ -1,0 +1,60 @@
+
+B1 TEST 1 - GOOD CONNECTIVITY
+-----------------------------
+Work items enqueued       : 5
+Deferred / cancelled      : 1
+Successful executions     : 4
+Peak concurrent workers   : 1
+  R1: UPLOADED
+  R2: UPLOADED
+  R3: UPLOADED
+  R4: UPLOADED
+  R5: DEFERRED - encryption required
+
+B1 TEST 2 - LOW BATTERY / DOZE
+------------------------------
+Work items enqueued       : 5
+Deferred / cancelled      : 5
+Successful executions     : 0
+Peak concurrent workers   : 1
+  R1: DEFERRED - device constraint
+  R2: DEFERRED - device constraint
+  R3: DEFERRED - device constraint
+  R4: DEFERRED - device constraint
+  R5: DEFERRED - encryption required
+
+B1 TEST 3 - PERMISSION REVOKED
+------------------------------
+Work items enqueued       : 5
+Deferred / cancelled      : 5
+Successful executions     : 0
+Peak concurrent workers   : 1
+  R1: CANCELLED - permission revoked
+  R2: CANCELLED - permission revoked
+  R3: CANCELLED - permission revoked
+  R4: CANCELLED - permission revoked
+  R5: CANCELLED - permission revoked
+
+B1 FIFO ORDER
+-------------
+Work items enqueued       : 5
+Deferred / cancelled      : 1
+Successful executions     : 4
+Peak concurrent workers   : 1
+  R1: UPLOADED
+  R2: UPLOADED
+  R3: UPLOADED
+  R4: UPLOADED
+  R5: DEFERRED - encryption required
+
+B1 PRIORITY ORDER
+-----------------
+Work items enqueued       : 5
+Deferred / cancelled      : 1
+Successful executions     : 4
+Peak concurrent workers   : 1
+  R2: UPLOADED
+  R4: UPLOADED
+  R5: DEFERRED - encryption required
+  R1: UPLOADED
+  R3: UPLOADED
